@@ -1,0 +1,7 @@
+.listsContainer {
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin: 30px;
+}

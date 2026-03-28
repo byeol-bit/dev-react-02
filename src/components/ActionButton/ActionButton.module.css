@@ -1,0 +1,35 @@
+.taskButton {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.taskButton:hover {
+  background-color: rgb(218, 219, 226);
+}
+
+.listButton {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  border-radius: 4px;
+  min-width: 250px;
+  margin-top: 5px;
+  color: white;
+  font-size: 18px;
+  background-color: #ffb74d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.listButton:hover {
+  background-color: #ffb74da6;
+}

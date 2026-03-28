@@ -1,8 +1,26 @@
 import React from 'react'
+import style from './Task.module.css'
 
-const Task = () => {
+type TTaskProps = {
+  taskName: string;
+  taskDescription: string;
+  boardId: string;
+  id: string;
+  index: number;
+}
+
+const Task = ({
+  taskName,
+  taskDescription,
+  boardId,
+  id,
+  index,
+}: TTaskProps) => {
   return (
-    <div>Task</div>
+    <div className={style.container}>
+      <div className={style.title}>{taskName}</div>
+      <div className={style.description}>{taskDescription}</div>
+    </div>
   )
 }
 

@@ -1,0 +1,12 @@
+.sideForm {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.icon {}

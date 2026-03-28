@@ -1,0 +1,63 @@
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.listForm {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  padding: 15px;
+  width: max-content;
+  height: max-content;
+  border-radius: 20px;
+  background-color: rgb(235, 236, 240);
+}
+
+.input {
+  padding: 10px;
+  font-size: 12px;
+  min-height: 60px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 4px;
+  resize: none;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.button {
+  width: 150px;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #f57c00;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffb74d;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.close {
+  margin-left: 15px;
+  font-size: 32px;
+  opacity: 0.5;
+}
+
+.close:hover {
+  opacity: 0.7;
+}
