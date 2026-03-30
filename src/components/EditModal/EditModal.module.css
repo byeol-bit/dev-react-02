@@ -1,0 +1,94 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 10000;
+}
+
+.modalWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: max-content;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: #f57c00;
+  opacity: 0.95;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  color: white;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.closeButton {
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.closeButton:hover {
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.updateButton {
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 15px;
+  margin-right: 20px;
+  background-color: rgb(237, 180, 88);
+  cursor: pointer;
+}
+
+.updateButton:hover {
+  opacity: 0.8;
+}
+
+.deleteButton {
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 15px;
+  margin-right: 20px;
+  background-color: rgb(237, 51, 88);
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  opacity: 0.8;
+}
+
+.input {
+  width: 100%;
+  min-height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
